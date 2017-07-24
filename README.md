@@ -35,11 +35,11 @@ example:
 </header>
 ```
 
-Click [here](#document) for details.
+Click [here](https://kokushin.github.io/mono.css/#document) for details.
 
 ## Demo
 
-[mono.css](mono.css)
+[https://kokushin.github.io/mono.css/](https://kokushin.github.io/mono.css/)
 
 ## Download
 [Download ZIP](https://github.com/kokushin/mono.css/archive/master.zip)
