@@ -1,0 +1,25 @@
+figure {
+  max-width: 800px;
+  text-align: center;
+  @include marginTop;
+
+  & + * {
+    @include marginTop;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 800px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    vertical-align: bottom;
+  }
+
+  figcaption {
+    color: #757575;
+    padding-left: 16px;
+    border-left: 4px solid $color-bg;
+    margin-top: 1em;
+    text-align: left;
+  }
+}

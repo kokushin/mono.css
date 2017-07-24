@@ -1,0 +1,23 @@
+/*! mono.css v1 | MIT License | Copyright 2017 @kokushing */
+
+$max-width: 1240px;
+$color-black: #000;
+$color-white: #fff;
+$color-bg: #f5f5f5;
+$color-link: #757575;
+
+@mixin marginTop($baseMargin: 56px, $fontSize: 1rem, $lineHeight: 1.8) {
+    margin: calc(#{$baseMargin} - (((#{$fontSize} * #{$lineHeight}) - #{$fontSize}) / 2)) auto 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700');
+
+@import 'partial/base';
+@import 'partial/header';
+@import 'partial/footer';
+@import 'partial/menu';
+@import 'partial/section';
+@import 'partial/figure';
+@import 'partial/code';
+@import 'partial/list';
+@import 'partial/blockquote';

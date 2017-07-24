@@ -1,0 +1,17 @@
+.footer {
+  padding: 80px 0;
+
+  .inner {
+    display: flex;
+    align-items: center;
+  }
+
+  .sns {
+    display: flex;
+
+    a {
+      display: block;
+      margin-left: 1em;
+    }
+  }
+}

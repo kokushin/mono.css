@@ -1,0 +1,17 @@
+{
+  "name": "mono.css",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/kokushin/mono.css.git",
+  "author": "kokushin <mail@kokush.in>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}

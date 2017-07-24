@@ -1,0 +1,53 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 100%;
+  line-height: 1.8;
+}
+
+a {
+  color: $color-link;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.inner {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+
+  @media screen and (max-width: 768px) {
+    max-width: initial;
+  }
+}
+
+.marker {
+  display: inline-block;
+  background: $color-black;
+  color: $color-white;
+  padding: 0 4px;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  margin: 56px 0;
+  box-sizing: content-box;
+  overflow: visible;
+  border-top: 1px solid #eee;
+}
+
+.mono {
+  &._center {
+    text-align: center;
+  }
+}

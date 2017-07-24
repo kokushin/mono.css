@@ -1,0 +1,16 @@
+pre {
+  background: #000;
+  overflow-x: scroll;
+  @include marginTop;
+
+  & + * {
+    @include marginTop;
+  }
+
+  code {
+    display: block;
+    color: #fff;
+    font-family: monospace;
+    padding: 1em 1.5em;
+  }
+}

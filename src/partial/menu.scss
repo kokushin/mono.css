@@ -1,0 +1,27 @@
+.menu {
+  padding: 24px 0;
+  background: $color-black;
+  line-height: 1;
+
+  @media screen and (max-width: 768px) {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .inner {
+    display: flex;
+
+    ._center & {
+      justify-content: center;
+    }
+  }
+
+  a {
+    display: block;
+    color: $color-white;
+
+    & + a {
+      margin: 0 0 0 32px;
+    }
+  }
+}
