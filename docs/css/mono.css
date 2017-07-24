@@ -30,6 +30,9 @@ a {
   background: #000;
   color: #fff;
   padding: 0 4px; }
+  ._black .marker {
+    background: #fff;
+    color: #000; }
 
 hr {
   height: 0;
@@ -39,19 +42,17 @@ hr {
   overflow: visible;
   border-top: 1px solid #eee; }
 
-.mono._center {
+._center {
   text-align: center; }
+
+._black {
+  background: #000;
+  color: #fff; }
 
 .header {
   padding: 80px 0; }
-  @media screen and (max-width: 768px) {
-    .header {
-      padding: 56px 0; } }
   .header p {
     margin: 32px 0 0; }
-    @media screen and (max-width: 768px) {
-      .header p {
-        margin: 24px 0 0; } }
 
 .header-logo {
   display: inline-block;
@@ -79,23 +80,33 @@ hr {
   line-height: 1; }
   @media screen and (max-width: 768px) {
     .menu {
-      overflow-x: scroll;
-      -webkit-overflow-scrolling: touch; } }
+      padding: 0; } }
   .menu .inner {
     display: flex; }
+    @media screen and (max-width: 768px) {
+      .menu .inner {
+        padding: 0 10px;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch; } }
     ._center .menu .inner {
       justify-content: center; }
   .menu a {
     display: block;
     color: #fff; }
+    @media screen and (max-width: 768px) {
+      .menu a {
+        padding: 24px 10px; } }
     .menu a + a {
       margin: 0 0 0 32px; }
+      @media screen and (max-width: 768px) {
+        .menu a + a {
+          margin: 0; } }
 
 .section {
   padding: 112px 0; }
   @media screen and (max-width: 768px) {
     .section {
-      padding: 56px 0; } }
+      padding: 72px 0; } }
   .section:nth-child(2n) {
     background: #f5f5f5; }
   .section .inner > *:first-child {

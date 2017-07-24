@@ -14,84 +14,83 @@
   <meta property="og:image" content="https://kokushin.github.io/mono.css/img/share.png">
   <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://kokushin.github.io/mono.css/css/mono.css">
+  <link rel="stylesheet" href="./css/mono.css">
 </head>
 <body>
-  <div class="mono">
 
-    <header class="header">
+  <header class="header">
+    <div class="inner">
+      <div class="header-logo">M0N0</div>
+      <p>mono.css is minimal design based on <span class="marker">black</span> and white.</p>
+    </div>
+  </header>
+
+  <nav class="menu">
+    <div class="inner">
+      <a href="#feature">Feature</a>
+      <a href="#usage">Usage</a>
+      <a href="#document">Document</a>
+      <a href="https://github.com/kokushin/mono.css" target="_blank">GitHub</a>
+    </div>
+  </nav>
+
+  <main class="content">
+
+    <section class="section" id="feature">
       <div class="inner">
-        <div class="header-logo">M0N0</div>
-        <p>mono.css is minimal design based on <span class="marker">black</span> and white.</p>
+        <h2>Feature</h2>
+        <p>Mono.css is a minimal CSS framework (2kB). <br>A simple monochrome design can be applied and only a minimum style is prepared so that users can freely expand.</p>
+        <figure>
+          <img src="https://source.unsplash.com/random" alt="">
+          <figcaption>A monochrome filter is automatically applied to the embedded image.</figcaption>
+        </figure>
+        <p>Install <a href="https://www.npmjs.com/package/mono.css" target="_blank">npm</a>, Cloning <a href="https://github.com/kokushin/mono.css" target="_blank">GitHub</a>, Donwload <a href="https://github.com/kokushin/mono.css/archive/master.zip">Zip</a></p>
       </div>
-    </header>
+    </section>
 
-    <nav class="menu">
+    <section class="section" id="usage">
       <div class="inner">
-        <a href="#feature">Feature</a>
-        <a href="#usage">Usage</a>
-        <a href="#document">Document</a>
-        <a href="https://github.com/kokushin/mono.css" target="_blank">GitHub</a>
+        <h2>Usage</h2>
+        <p>Just load CSS 👌</p>
+        <pre><code>&lt;link rel="stylesheet" href="https://unpkg.com/mono.css@latest/dist/mono.min.css"&gt;</code></pre>
       </div>
-    </nav>
+    </section>
 
-    <main class="content">
+    <section class="section" id="document">
+      <div class="inner">
+        <h2>Document</h2>
+        <p>The components provided in version 1 are as follows:</p>
+        <ul>
+          <li><a href="#document-1">Header</a></li>
+          <li><a href="#document-2">Footer</a></li>
+          <li><a href="#document-3">Menu</a></li>
+          <li><a href="#document-4">Section</a></li>
+          <li><a href="#document-5">Figure</a></li>
+          <li><a href="#document-6">Code</a></li>
+        </ul>
+        <blockquote>
+          <p>Tips: It is added when the developer has time to spare ... 🍨</p>
+        </blockquote>
+      </div>
+    </section>
 
-      <section class="section" id="feature">
-        <div class="inner">
-          <h2>Feature</h2>
-          <p>Mono.css is a minimal CSS framework (2kB). <br>A simple monochrome design can be applied and only a minimum style is prepared so that users can freely expand.</p>
-          <figure>
-            <img src="https://source.unsplash.com/random" alt="">
-            <figcaption>A monochrome filter is automatically applied to the embedded image.</figcaption>
-          </figure>
-          <p>Install <a href="https://www.npmjs.com/package/mono.css" target="_blank">npm</a>, Cloning <a href="https://github.com/kokushin/mono.css" target="_blank">GitHub</a>, Donwload <a href="https://github.com/kokushin/mono.css/archive/master.zip">Zip</a></p>
-        </div>
-      </section>
-
-      <section class="section" id="usage">
-        <div class="inner">
-          <h2>Usage</h2>
-          <p>Just load CSS 👌</p>
-          <pre><code>&lt;link rel="stylesheet" href="https://unpkg.com/mono.css@latest/dist/mono.min.css"&gt;</code></pre>
-        </div>
-      </section>
-
-      <section class="section" id="document">
-        <div class="inner">
-          <h2>Document</h2>
-          <p>The components provided in version 1 are as follows:</p>
-          <ul>
-            <li><a href="#document-1">Header</a></li>
-            <li><a href="#document-2">Footer</a></li>
-            <li><a href="#document-3">Menu</a></li>
-            <li><a href="#document-4">Section</a></li>
-            <li><a href="#document-5">Figure</a></li>
-            <li><a href="#document-6">Code</a></li>
-          </ul>
-          <blockquote>
-            <p>Tips: It is added when the developer has time to spare ... 🍨</p>
-          </blockquote>
-        </div>
-      </section>
-
-      <section class="section" id="document-1">
-        <div class="inner">
-          <h3>&lt;Header /&gt;</h3>
-          <pre><code>&lt;header class="header"&gt;
+    <section class="section" id="document-1">
+      <div class="inner">
+        <h3>&lt;Header /&gt;</h3>
+        <pre><code>&lt;header class="header"&gt;
   &lt;div class="inner"&gt;
     &lt;div class="header-logo"&gt;M0N0&lt;/div&gt;
     &lt;p&gt;mono.css is minimal design based on &lt;span class="marker"&gt;black&lt;/span&gt; and white.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/header&gt;
 </code></pre>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section" id="document-2">
-        <div class="inner">
-          <h3>&lt;Footer /&gt;</h3>
-          <pre><code>&lt;footer class="footer"&gt;
+    <section class="section" id="document-2">
+      <div class="inner">
+        <h3>&lt;Footer /&gt;</h3>
+        <pre><code>&lt;footer class="footer"&gt;
   &lt;div class="inner"&gt;
     &lt;small&gt;&amp;copy; 2017 &lt;span class="marker"&gt;mo&lt;/span&gt; no.css by &lt;a href="https://twitter.com/kokushing" target="_blank"&gt;@kokushing&lt;/a&gt;&lt;/small&gt;
     &lt;div class="sns"&gt;
@@ -101,13 +100,13 @@
   &lt;/div&gt;
 &lt;/footer&gt;
 </code></pre>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section" id="document-3">
-        <div class="inner">
-          <h3>&lt;Menu /&gt;</h3>
-          <pre><code>&lt;nav class="menu"&gt;
+    <section class="section" id="document-3">
+      <div class="inner">
+        <h3>&lt;Menu /&gt;</h3>
+        <pre><code>&lt;nav class="menu"&gt;
   &lt;div class="inner"&gt;
     &lt;a href="#"&gt;Feature&lt;/a&gt;
     &lt;a href="#"&gt;Usage&lt;/a&gt;
@@ -116,13 +115,13 @@
   &lt;/div&gt;
 &lt;/nav&gt;
 </code></pre>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section" id="document-4">
-        <div class="inner">
-          <h3>&lt;Section /&gt;</h3>
-          <pre><code>&lt;main class="content"&gt;
+    <section class="section" id="document-4">
+      <div class="inner">
+        <h3>&lt;Section /&gt;</h3>
+        <pre><code>&lt;main class="content"&gt;
   &lt;section class="section"&gt;
     &lt;div class="inner"&gt;
       &lt;h2&gt;Feature&lt;/h2&gt;
@@ -131,40 +130,45 @@
   &lt;/section&gt;
 &lt;/main&gt;
 </code></pre>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section" id="document-5">
-        <div class="inner">
-          <h3>&lt;Figure /&gt;</h3>
-          <pre><code>&lt;figure&gt;
+    <section class="section" id="document-5">
+      <div class="inner">
+        <h3>&lt;Figure /&gt;</h3>
+        <pre><code>&lt;figure&gt;
   &lt;img src="https://source.unsplash.com/random" alt=""&gt;
   &lt;figcaption&gt;A monochrome filter is automatically applied to the embedded image.&lt;/figcaption&gt;
 &lt;/figure&gt;
 </code></pre>
-        </div>
-      </section>
-
-      <section class="section" id="document-6">
-        <div class="inner">
-          <h3>&lt;Code /&gt;</h3>
-          <pre><code>&lt;pre&gt;&lt;code&gt;&amp;lt;link rel="stylesheet" href="https://unpkg.com/mono.css@latest/dist/mono.min.css"&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-</code></pre>
-        </div>
-      </section>
-
-    </main>
-
-    <footer class="footer">
-      <div class="inner">
-        <small>&copy; 2017 <span class="marker">mo</span> no.css by <a href="https://twitter.com/kokushing" target="_blank">@kokushing</a></small>
-        <div class="sns">
-          <a href="https://github.com/kokushin/mono.css"><i class="fa fa-github"></i></a>
-          <a href="https://twitter.com/kokushing"><i class="fa fa-twitter"></i></a>
-        </div>
       </div>
-    </footer>
+    </section>
 
-  </div>
+    <section class="section" id="document-6">
+      <div class="inner">
+        <h3>&lt;Code /&gt;</h3>
+        <pre><code>&lt;pre&gt;&lt;code&gt;&amp;lt;link rel="stylesheet" href="https://unpkg.com/mono.css@latest/dist/mono.min.css"&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+      </div>
+    </section>
+
+    <div class="section _center">
+      <div class="inner">
+        <p>Thank you 👋</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="inner">
+      <small>&copy; 2017 <span class="marker">mo</span>no.css by <a href="https://twitter.com/kokushing" target="_blank">@kokushing</a></small>
+      <div class="sns">
+        <a href="https://github.com/kokushin/mono.css"><i class="fa fa-github"></i></a>
+        <a href="https://twitter.com/kokushing"><i class="fa fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>

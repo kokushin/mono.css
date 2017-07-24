@@ -4,12 +4,17 @@
   line-height: 1;
 
   @media screen and (max-width: 768px) {
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
+    padding: 0;
   }
 
   .inner {
     display: flex;
+
+    @media screen and (max-width: 768px) {
+      padding: 0 10px;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
 
     ._center & {
       justify-content: center;
@@ -20,8 +25,16 @@
     display: block;
     color: $color-white;
 
+    @media screen and (max-width: 768px) {
+      padding: 24px 10px;
+    }
+
     & + a {
       margin: 0 0 0 32px;
+
+      @media screen and (max-width: 768px) {
+        margin: 0;
+      }
     }
   }
 }

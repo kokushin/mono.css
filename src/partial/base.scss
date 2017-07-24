@@ -35,6 +35,11 @@ a {
   background: $color-black;
   color: $color-white;
   padding: 0 4px;
+
+  ._black & {
+    background: $color-white;
+    color: $color-black;
+  }
 }
 
 hr {
@@ -46,8 +51,11 @@ hr {
   border-top: 1px solid #eee;
 }
 
-.mono {
-  &._center {
-    text-align: center;
-  }
+._center {
+  text-align: center;
+}
+
+._black {
+  background: $color-black;
+  color: $color-white;
 }
