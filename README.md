@@ -10,6 +10,8 @@
 
 ## Feature
 
+<img src="https://raw.githubusercontent.com/kokushin/mono.css/master/docs/img/logo.png" width="208">
+
 Mono.css is a minimal CSS framework (2kB). <br>A simple monochrome design can be applied and only a minimum style is prepared so that users can freely expand.
 
 ## Installation
