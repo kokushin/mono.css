@@ -2,7 +2,8 @@
   "name": "mono.css",
   "version": "1.0.0",
   "scripts": {
-    "dev": "gulp"
+    "dev": "gulp",
+    "deploy": "np --no-cleanup"
   },
   "main": "index.js",
   "repository": "https://github.com/kokushin/mono.css.git",
@@ -12,6 +13,7 @@
     "gulp": "^3.9.1",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "np": "^2.16.0"
   }
 }
